@@ -76,14 +76,16 @@ span{
 
 .images{
     width: 45%;
-    height: 80%;
+    max-width: 500px;
+    height: auto;
     position: absolute;
     bottom: 0;
     right: 100px;
 }
 
 .images img{
-    height: 100%;
+    width: 100%;
+    height: auto;
     position: absolute;
     left: 50%;
     bottom: 0;
@@ -95,7 +97,7 @@ span{
     bottom: 40px;
 }
 
-.images:hover .girl{
+.images:hover .Boy{
     left: 45%;
 }
 
